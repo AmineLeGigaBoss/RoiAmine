@@ -1,73 +1,298 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Blog Amine</title>
-        <style>
-        body{
-            background:grey;
-            color:black;
-        }
-        a{
-            color: #0000ff;
-            font-size:1em;
-            font-style:italic;
-        }
-        p{
-            font-size:1em;
-            font-family:arial;
-        }
-        h1{
-            text-align:center;
-            font-size:3em;
-            font-weight:bold;
-            color:black;
-        }
-        h2{
-            background:black;
-            color:white;
-            padding: 10px;
-            border-left: 3px solid gray;
-        }
-            
-        </style>
-    </head>
-    <body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Titre de la page. Visible dans l'onglet du navigateur -->
+    <title>Cabane golf Bassecourt</title>
+    <meta name="author" content="Louis Fan">
+    <style>
         
-        <h1>Blog d'Amine</h1>
+        /*********************
+Body
+******/
 
-        <h3>Contenu</h3>
+body {
+    font-size: 100%;
+    font-family: Verdana;
+}
+
+/*********/
+/* Header*/
+/*********/
+
+header {
+    background: #4caf50;
+    border: 20px solid #388e3c;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    width: 100%;
+
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header li {
+    list-style: none;
+    font-size: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
+/******/
+/*main*/
+/******/
+main {
+    margin: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 100%;
+}
+
+h1 {
+    color: #388e3c;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.cabane img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabane {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    background: #c8e6c9;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 5%;
+}
+
+.cabane p {
+    margin: 50%;
+}
+ul {
+list-style-image: url("balle-golf.png");
+}
+       
+    </style>   
+
+</head>
+<body>
+<header class="header">
+    <img src="practice-golf-club-bassecourt-logo.png" alt="logo" height="86" width="254"/>
+    <nav class="header">
         <ul>
-            <li><a href="#s1">HTML/CSS Semaine 1</a></li>
-            <li><a href="#s2">HTML/CSS Semaine 2</a></li>
-            <li><a href="#s3">HTML/CSS Semaine 3</a></li>
-            <li><a href="#s4">HTML/CSS Semaine 4</a></li>
-            <li><a href="#s5">HTML/CSS Semaine 5</a></li>
-            </ul>
-        
-        <h2 id="s1">HTML/CSS Semaine 1</h2>
-        
-        <p>Aujourd'hui on a fait de la théorie sur <strong>internet</strong>, sur les <strong>mots de passe</strong> et le <strong>piratage</strong>.</p>
-        
-          <h2 id="s2">HTML/CSS Semaine 2</h2>
-        <img src="https://steamuserimages-a.akamaihd.net/ugc/959712485767495044/157247F3E353E6DB250896CCCF699359C12F4012/" alt="gif" width="500">
-         
-        <p>Aujourd'hui on à commencé en pratique sur <strong> <a href="https://fr.khanacademy.org">khan academy</a></strong> on a juste vu le html mais pas le css pour le moment.</p>
-        <iframe width="952" height="535,5" src="https://www.youtube.com/embed/AY7JiZ0hQe8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        
-        
-         <h2 id="s3">HTML/CSS Semaine 3</h2>
-         
-        <p>Aujourd'hui on à apppris plus profondément sur le <strong>html</strong> et on a commencé le <strong>css</strong>.</p>
-        
-        <h2 id="s4">HTML/CSS Semaine 4</h2>
-         
-        <p>Aujourd'hui on à vu toute les commandes assez importante pour le <strong>html</strong> et appris d'avantage sur le <strong>css</strong>, on doit aussi mettre notre blog surr <strong><a href="https://github.com/">GitHub</a></strong>.</p>
+            <li class="header">
+                Accueil
+            </li>
+            <li class="header">
+                Le club
+            </li>
+            <li class="header">
+                Evénements
+            </li>
+            <li class="header">
+                Nous contacter
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>
+        Practice Golf Club Bassecourt
+    </h1>
+    <h2>
+        Présentation du club
+    </h2>
 
-        <h2 id="s5">HTML/CSS Semaine 5</h2>
+        <p>
+        Situé au beau milieu des pâturages Essert Jacques surplombant le village de Bassecourt,
+        le Practice Golf Club de <a href="http://bassecourt.ch/"> Bassecourt </a> offre la possibilité depuis 20 ans à
+        tout golfeur,
+        débutant ou chevronné,
+        d’entraîner son swing dans le but de jouer sur les fairways et greens de ses parcours favoris.
+        </p>
 
-        <p>On a installé <strong>Web Storm</strong> sur nos postes pour que la modification aille plus vite que sur GitHub, on a aussi appris comment faire de nouvelle branche.</p>
+    <p>
+        <a href="C:\Users\fanlou\WebstormProjects\101-EXE-05-Examen-a-blanc\Examen-a-blanc-golf-bassecourt\open-golf-printemps-2008.pdf ">
+            Lire l'article « PGCB déjà 20 ans de plaisir » </a>, paru dans le magazine Open Golf au printemps 2008.
+    </p>
+    <figure>
+        <div class="cabane">
+        <img src="cabane-practice-golf-club-bassecourt.jpg" alt="golf_bassecourt" height="341" width="600"/>
+        <figcaption>
+            Club House du Practice Golf Club Bassecourt
+        </figcaption>
+        </div>
+    </figure>
+    <h2>
+        Ouvert à qui et quand ?
+    </h2>
+    <p>
+        Réservé aux membres exclusivement,
+        le PGCB est ouvert chaque jour excepté le mardi et le vendredi matin pour le ramassage des balles et la tonte du
+        terrain.
+    </p>
+    <h2>
+        Infrastructures
+    </h2>
+    <ul>
+        <li>
+            14 tapis de practice <strong> dont 4 couverts </strong>
+        </li>
+        <li>
+            1 putting-green
+        </li>
+        <li>
+            1 bunker
+        </li>
+        <li>
+            Cabane avec terrasse et WC
+        </li>
+    </ul>
+    <h2>
+        Formation
+    </h2>
+    <p>
+        La formation est assurée par notre pro Olivier Brun qui dispense des cours individuels de même que des stages
+        pour l’obtention de la carte verte.
+        Informations et inscriptions à la cabane du practice.
+    </p>
+    <h2>
+        Tarifs
+    </h2>
+    <table>
+        <theader>
+            <tr>
+                <td>
+                    Catégorie
+                </td>
+                <td>
+                    Entrée
+                </td>
+                <td>
+                    Cotisation
+                </td>
+            </tr>
+        </theader>
+        <tbody>
+        <tr>
+            <td>
+                Adulte
+            </td>
+            <td>
+                150.-
+            </td>
+            <td>
+                250.-
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Couple
+            </td>
+            <td>
+                225.-
+            </td>
+            <td>
+                350.-
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Etudiant < 25 ans
+            </td>
+            <td>
+                0.-
+            </td>
+            <td>
+                75.-
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Junior < 20 ans
+            </td>
+            <td>
+                0.-
+            </td>
+            <td>
+                50.-
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cadet < 16 ans
+            </td>
+            <td>
+                0.-
+            </td>
+            <td>
+                25.-
+            </td>
+        </tr>
+        </tbody>
+        <tfooter>
+            <tr>
+                <td colspan="3">
+                    Prix en francs suisses pour la saison 2015
+                </td>
+            </tr>
+        </tfooter>
+    </table>
+    <h2>
+        Meilleurs membres
+    </h2>
+    <ol>
+        <li>
+            Pierre Kiroule
+        </li>
+        <li>
+            Sylvain Aybon-Folboir
+        </li>
+        <li>
+            Marc Assin
+        </li>
+        <li>
+            Sandra Samegratte
+        </li>
+        <li>
+            Otto Bus
+        </li>
+    </ol>
+</main>
+<footer>
+    <div> &copy; Practice Golf Club Bassecourt - <a href ="Info@pgch.ch"> Info@pgch.ch </a></div>
+</footer>
 
-    </body>
+</body>
 </html>
